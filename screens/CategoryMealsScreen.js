@@ -6,6 +6,7 @@ import Colors from '../constants/Colors'
 import Meal from '../models/meal';
 import MealItem from '../Components/mealItem'; 
 
+
 const CategoryMealScreen = props => {
   const catId = props.navigation.getParam('CategoryId');
   
@@ -42,6 +43,7 @@ CategoryMealScreen.navigationOptions = navigationData => {
   const selectedCategory = CATEGORIES.find(cat => cat.id === catId);
   return {
     headerTitle: selectedCategory.title
+   
 }
 }
 
@@ -51,6 +53,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    padding: 10
   }
 });
 
