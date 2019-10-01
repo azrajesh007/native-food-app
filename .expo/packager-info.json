@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 14411,
+  "expoServerNgrokUrl": "https://hx-49b.anonymous.native-food-app.exp.direct",
+  "packagerNgrokUrl": "https://packager.hx-49b.anonymous.native-food-app.exp.direct",
+  "ngrokPid": 14438
 }
